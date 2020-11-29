@@ -4,30 +4,16 @@ import './App.css';
 import TodoList from './TodoList';
 import './test.css';
 import Button from './Button2.js';
-import Box from './Box1.js';
+import Box from './Box2.js';
 
 function App() {
   return (
     <div className="App">
       <TodoList />
-        <Button size = "big"/>
-        <Button size = "small"/>
-        <Box size = "big"/>
-        <Box size = "small"/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dahee start React
-        </a>
-      </header>
+      <Button size = "big"/>
+      <Button size = "small"/>
+      <Box size = "big"/>
+      <Box size = "small"/>
     </div>
   );
 }
