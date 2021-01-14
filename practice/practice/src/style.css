@@ -1,0 +1,126 @@
+.container{
+    background-color: #f8f9f4;
+    font-family: Noto Sans KR, Roboto,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin : 0 auto;
+    height: 370px;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    margin: 0 auto 26px;
+    text-align: left;
+    color: #212121;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: -.6px;
+    
+}
+.guest{
+    color: #fe8256;
+    display: block;
+    margin-bottom: 7px;
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: -.7px;
+    text-align: left;
+}
+.container>.indexcon>.index>li{
+    font-family: Gotham;
+    font-size: 15px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: -.75px;
+    text-align: left;
+    color: #757575;
+}
+.container>.index>li:first-child{
+    font-size: 15px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: -.38px;
+    text-align: left;
+    color: #757575;
+    margin-bottom: 4px;
+}
+ul{
+    list-style:none;
+}
+.index {
+padding:0;
+}
+.container>.indexcon{
+    /*position: absolute;*/
+    background: #fff;
+    left: 0;
+    right: 0;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    width: calc(100% - 90px);
+    margin: 0 20px;
+    padding: 26px 23px 25px;
+    background-repeat: no-repeat;
+}
+.container>.indexcon{
+    background-image: url(img/guest_woman_m.93f516fd.png);
+    background-position: calc(100% - 23px) calc(100% - 24px);
+    background-size: 98px 89.8px;
+}
+.howto{
+    margin: auto;
+    margin-top: 35px;
+    width: calc(100% - 40px);
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 35.5px;
+    text-align : left;
+}
+.howto>h1{
+    font-size: 20px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: -.5px;
+    text-align: left;
+    color: #212121;
+    font-family: Gotham;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.howto>.howtoind>p{
+    font-weight: 400;
+    word-spacing: -.75px;
+    margin: 0;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: -.75px;
+    text-align: left;
+    color: #212121;
+}
+.howto>.howtoind>h2{
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: -.75px;
+    text-align: left;
+    color: #212121;
+    font-family: Gotham;
+    font-weight: 600;
+    margin: 25px 0 0;
+}
